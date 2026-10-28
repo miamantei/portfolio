@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Project 2: Deceptive Visualization (Final)",
+        "year": "2026",
+        "image": "https://miamantei.github.io/portfolio/project2/DV_Proj2_FOR.png",
+        "description": "Two opposing visualizations of World Bank CO2 data arguing for and against the claim that China, not the U.S., is now the main obstacle to cutting global emissions. Every number is accurate; the persuasion comes from choices of start year, baseline, normalization, and what to leave out."
+    },
+    {
+        "title": "Project 1: Expository Visualization (Final)",
+        "year": "2026",
+        "image": "https://miamantei.github.io/portfolio/project1/DV_Proj1_Final.png",
+        "description": "A dot plot comparing the share of ultra-processed products (NOVA group 4) in each grocery aisle at Whole Foods, Walmart, and Target. Even Whole Foods is mostly ultra-processed overall, close to the 71% benchmark for the US packaged food supply."
+    },
+    {
+        "title": "Portfolio Website (Labs 1–4)",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This site! Built with HTML, CSS, and JavaScript, with projects loaded from a JSON file and live stats pulled from the GitHub API."
+    },
+    {
+        "title": "Project 2: Deceptive Visualization (Checkpoint)",
+        "year": "2026",
+        "image": "https://miamantei.github.io/portfolio/project2/DV_Proj2_AGAINST.png",
+        "description": "Early drafts of the for and against figures, using simple charts that I later developed with calculated fields like running totals and share of growth."
+    },
+    {
+        "title": "Project 1: Expository Visualization (Checkpoint)",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Checkpoint draft of my expository visualization, exploring the dataset and early design directions."
+    },
+    {
+        "title": "Lab 4: JavaScript II",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Rendered projects dynamically from a JSON data file and fetched profile data from the GitHub API."
+    },
+    {
+        "title": "Lab 3: JavaScript I",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Added an automatic navigation menu and a light/dark theme switcher to this site with JavaScript."
+    },
+    {
+        "title": "Lab 2: CSS Styling",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Styled the portfolio with CSS layout techniques including flexbox and grid."
+    },
+    {
+        "title": "TicCon 2026 Talk: SCAN Connectivity in Parkinson's Disease and Tourette Syndrome",
+        "year": "2026",
+        "image": "https://miamantei.github.io/portfolio/talks/TicCon2026_Talk.png",
+        "description": "Conference talk at TicCon 2026 in Nashville on aberrant connectivity within the somato-cognitive action network (SCAN) in Parkinson's disease, proposed as a framework for motor-cognitive circuit dysfunction in Tourette syndrome."
+    },
+    {
+        "title": "Blitz Talk: Functional Mapping of the Motor Cortex in Parkinson's Disease",
+        "year": "2025",
+        "image": "https://miamantei.github.io/portfolio/talks/Blitz_Talk.png",
+        "description": "Short research talk on functional mapping of the primary motor cortex in Parkinson's disease, examining effector and inter-effector circuits."
+    },
+    {
+        "title": "Placeholder Course Project",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Placeholder description. Replace with a past class project."
+    },
+    {
+        "title": "Placeholder Undergraduate Project",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Placeholder description. Replace with an undergraduate project or thesis."
+    }
+]
