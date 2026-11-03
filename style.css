@@ -169,3 +169,71 @@ section li {
   width: 100%;
   height: auto;
 }
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+/* Puts the pie and the legend side by side */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+/* The legend box */
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  list-style: none;
+}
+
+/* Each row: dot and text lined up */
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+/* The colored dot */
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+/* When one slice is hovered, fade the others */
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+/* Smooth fading, and a hand cursor so slices look clickable */
+#projects-pie-plot path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+/* The selected slice and its legend dot get a special color */
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+path.selected {
+  fill: var(--color);
+}
