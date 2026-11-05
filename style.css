@@ -237,3 +237,96 @@ section li {
 path.selected {
   fill: var(--color);
 }
+
+dl.stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5em 1em;
+}
+
+dl.stats dt {
+  grid-row: 1;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+dl.stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 2em;
+}
+
+.gridlines .tick line {
+  stroke-opacity: 0.15;
+}
+
+.gridlines .domain {
+  display: none;
+}
+
+/* Dots grow a bit when hovered */
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+/* Label/value grid layout */
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 1em;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  opacity: 0.6;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+/* Hidden state fades out */
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Floating box look */
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  z-index: 10;
+  background-color: Canvas;
+  color: CanvasText;
+  padding: 0.75em 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
