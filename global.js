@@ -18,6 +18,7 @@ let pages = [
     { url: 'projects/index.html', title: 'Projects' },
     { url: 'contact/index.html', title: 'Contact' },
     { url: 'resume/index.html', title: 'Resume' },
+    { url: 'meta/', title: 'Meta' },
     { url: 'https://github.com/miamantei', title: 'GitHub' }
 ];
 
