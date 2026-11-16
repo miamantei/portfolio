@@ -70,5 +70,12 @@
         "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Placeholder description. Replace with an undergraduate project or thesis."
+    },
+    {
+         "title": "Bikewatching",
+         "year": "2026",
+         "image": "../images/bikewatching.png",
+         "description": "An interactive Mapbox + D3 map of Boston-area Bluebikes traffic in March 2024. Circle size shows station traffic, color shows whether bikes are mostly arriving or departing, and a time slider filters by hour of day.",
+         "url": "https://miamantei.github.io/bikewatching/"
     }
 ]

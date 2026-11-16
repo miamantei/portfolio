@@ -121,13 +121,14 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     const article = document.createElement('article');
 
     // 4. Fill it with this project's data
-    article.innerHTML = `
+      article.innerHTML = `
       <${headingLevel}>${project.title}</${headingLevel}>
       <img src="${project.image}" alt="${project.title}">
       <div>
-       <p>${project.description}</p>
+        <p>${project.description}</p>
         <p class="project-year">c. ${project.year}</p>
-     </div>
+        ${project.url ? `<a href="${project.url}" target="_blank">View project →</a>` : ''}
+      </div>
     `;
 
     // 5. Put the finished article on the page
